@@ -116,7 +116,7 @@ img {
       rgba(var(--c-brand-rgb), 0.507),
       rgba(var(--c-brand-rgb), 0.438)
     ),
-    url(../images/hero-1.jpg);
+    url(../images/hero-1.webp);
   background-position: center;
   background-size: cover;
 }
@@ -190,8 +190,8 @@ img {
 
 #counter {
   background: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.8),
-      rgba(var(--c-brand-rgb), 0.8)
+      rgba(var(--c-brand-rgb), 0.6),
+      rgba(var(--c-brand-rgb), 0.7)
     ),
     url(../images/counter.jpg);
   background-position: center;
@@ -271,7 +271,7 @@ img {
       rgba(var(--c-brand-rgb), 0.8),
       rgba(var(--c-brand-rgb), 0.8)
     ),
-    url(../images/counter.jpg);
+    url(../images/contact.jpg);
   background-position: center;
   background-size: cover;
   position: absolute;
@@ -296,7 +296,7 @@ footer {
 }
 
 .footer-top {
-  padding-bottom: 40xp;
+  padding-bottom: 40px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 

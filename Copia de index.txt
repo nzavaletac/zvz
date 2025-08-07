@@ -3,11 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="ZVZ Group es un estudio contable en Lima que ofrece servicios de contabilidad, asesoría tributaria, laboral y constitución de empresas."
-    />
-
     <title>ZVZ Group</title>
     <link
       rel="stylesheet"
@@ -28,7 +23,12 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-white sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a
+          class="navbar-brand"
+          href="#"
+          data-aos="fade-down"
+          data-aos-delay="150"
+        >
           <img
             src="assets/images/logo-dark.png"
             alt=""
@@ -134,7 +134,7 @@
             <img src="./assets/images/about.webp" alt="" class="img-fluid" />
           </div>
           <div class="col-lg-5" data-aos="fade-down" data-aos-delay="150">
-            <div class="d-flex pt-4 mb-3"><h1>¿Por qué elegirnos?</h1></div>
+            <h1>¿Por qué elegirnos?</h1>
             <p class="mt-3 mb4">
               En ZVZ Consultin Group, contamos con un equipo de profesionales
               comprometidos con la excelencia y la transparencia. Nuestra misión
@@ -479,7 +479,7 @@
       </div>
     </section>
     <!-- REVIEW -->
-    <!-- <section id="reviews" class="section-padding bg-light">
+    <section id="reviews" class="section-padding bg-light">
       <div class="container">
         <div class="row">
           <div
@@ -695,7 +695,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- TEAM -->
     <section id="team" class="section-padding">
       <div class="container">
@@ -706,7 +706,7 @@
             data-aos-delay="150"
           >
             <div class="section-title">
-              <h1 class="display-4 fw-semibold">Nuestro equipo</h1>
+              <h1 class="display-4 fw-semibold">Nuesto equipo</h1>
               <div class="line"></div>
               <p>
                 Detrás de cada servicio de calidad hay un equipo de expertos
@@ -731,16 +731,13 @@
               </div>
               <div class="team-member-content">
                 <h4 class="text-white">Noe Zavaleta Cardeña</h4>
-                <p class="mb-0 text-white">Gerente General</p>
+                <p class="mb-0 text-white">
+                  Gerente General - Consultor Laboral
+                </p>
               </div>
             </div>
           </div>
-          <div
-            class="col-md-4 d-flex mt-3"
-            data-aos="fade-down"
-            data-aos-delay="250"
-            mb-3
-          >
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="250">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper">
                 <img
@@ -751,15 +748,11 @@
               </div>
               <div class="team-member-content">
                 <h4 class="text-white">Eliana Velasquez Mejía</h4>
-                <p class="mb-0 text-white">Contadora</p>
+                <p class="mb-0 text-white">Contadora General</p>
               </div>
             </div>
           </div>
-          <div
-            class="col-md-4 d-flex mt-3"
-            data-aos="fade-down"
-            data-aos-delay="350"
-          >
+          <div class="col-md-4" data-aos="fade-down" data-aos-delay="350">
             <div class="team-member image-zoom">
               <div class="image-zoom-wrapper">
                 <img
@@ -807,69 +800,40 @@
           data-aos-delay="250"
         >
           <div class="col-lg-8">
-            <form
-              action="https://formsubmit.co/nzavaletac@zvzgroup.com"
-              method="POST"
-              class="row g-3 p-lg-5 p-4 bg-white theme-shadow"
-            >
+            <form action="#" class="row g-3 p-lg-5 p-4 bg-white theme-shadow">
               <div class="form-group col-lg-6">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nombres"
-                  name="nombres"
-                  required
-                />
+                <input type="text" class="form-control" placeholder="Nombres" />
               </div>
               <div class="form-group col-lg-6">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Apellidos"
-                  name="apellidos"
-                  required
                 />
               </div>
               <div class="form-group col-lg-6">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="Correo"
-                  name="correo"
-                  required
-                />
+                <input type="email" class="form-control" placeholder="Correo" />
               </div>
               <div class="form-group col-lg-6">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Teléfono"
-                  name="telefono"
-                  required
                 />
               </div>
               <div class="form-group col-lg-12">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Asunto"
-                  name="asunto"
-                  required
-                />
+                <input type="text" class="form-control" placeholder="Asunto" />
               </div>
               <div class="form-group col-lg-12">
                 <textarea
-                  name="mensaje"
+                  name="message"
                   rows="5"
                   class="form-control"
                   placeholder="Mensaje"
-                  required
                 ></textarea>
               </div>
               <div class="form-group col-lg-12 d-grid">
-                <button type="submit" class="btn btn-brand">
-                  Enviar Mensaje
-                </button>
+                <button class="btn btn-brand">Enviar Mensaje</button>
               </div>
             </form>
           </div>
@@ -967,20 +931,10 @@
               <div class="line"></div>
               <p>
                 Nos especializamos en brindar asesoría contable, tributaria y
-                laboral personalizada para empresas y emprendedores en Perú.
+                laboral personalizada para empresas y emprendedores en Perú
               </p>
               <div class="social-icons">
-                <a href="https://web.facebook.com/zvzgroup" target="_blank"
-                  ><i class="ri-facebook-fill"></i
-                ></a>
-                <a href="https://www.tiktok.com/@zvzgroup" target="_blank"
-                  ><i class="ri-tiktok-fill"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/company/zvz-consulting-group-sac"
-                  target="_blank"
-                  ><i class="ri-linkedin-fill"></i
-                ></a>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
               </div>
             </div>
             <div class="col-lg-3 col-sm-6">
@@ -1006,38 +960,33 @@
               </ul>
             </div>
             <div class="col-lg-3 col-sm-6">
-              <h5 class="mb-0 text-white">CONTACTO</h5>
+              <h5 class="mb-0 text-white">CONTACT</h5>
               <div class="line"></div>
               <ul>
-                <li>Psje. 8 MZ E Lote 14 El Olivar - Los Olivos</li>
-                <li>
-                  <a
-                    rel="stylesheet"
-                    href="https://wa.me/51952284292?text=Hola,%20necesito%20más%20información%20sobre%20los%20servicios%20prestados."
-                    >+51 952 284 292
-                  </a>
-                </li>
+                <li>Psje. 8 MZ C Lote 14 El Oliva - Los Olivos</li>
+                <li>+51 993 645 977 / +51 923 603 680</li>
                 <li>info@zvzgroup.com</li>
+                <li>www.zvzgroup.com</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="container text-center">
+        <div class="container">
           <div class="row g-4 justify-content-between">
-            <div class="col-4">
+            <div class="col-auto">
               <p class="mb-0">
                 © Copyright ZVZ Group. Todos los derechos reservados.
               </p>
             </div>
-            <div class="col-4 social-icons">
-              <a class="scroll" href="#hero"
-                ><i class="ri-arrow-up-line"></i
-              ></a>
-            </div>
-            <div class="col-4">
-              <p class="mb-0">Desgined by nzavaletac</p>
+            <div class="col-auto">
+              <p class="mb-0">
+                Desgined By
+                <a href="https://nzavaletac.vercel.app" target="_blank"
+                  >nzavaletac</a
+                >
+              </p>
             </div>
           </div>
         </div>
