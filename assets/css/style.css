@@ -114,13 +114,27 @@ img {
 /* HERO */
 
 #hero {
+  position: relative;
   background: linear-gradient(
-      rgba(var(--c-brand-rgb), 0.507),
-      rgba(var(--c-brand-rgb), 0.438)
+      rgba(var(--c-brand-rgb), 0.6),
+      rgba(var(--c-brand-rgb), 0.7)
     ),
     url(../images/hero-1.webp);
   background-position: center;
   background-size: cover;
+}
+
+#hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+  pointer-events: none;
 }
 /* SECTION TITTLE */
 
@@ -152,6 +166,24 @@ img {
   color: var(--c-brand);
   font-size: 34px;
   flex: none;
+}
+
+/* ABOUT */
+
+.about {
+  position: relative;
+}
+.about::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+  pointer-events: none;
 }
 
 /* SERVICES */
@@ -191,6 +223,7 @@ img {
 /* COUNTER */
 
 #counter {
+  position: relative;
   background: linear-gradient(
       rgba(var(--c-brand-rgb), 0.6),
       rgba(var(--c-brand-rgb), 0.7)
@@ -198,6 +231,19 @@ img {
     url(../images/counter.jpg);
   background-position: center;
   background-size: cover;
+}
+
+#counter::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0.1) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+  pointer-events: none;
 }
 
 /* PORTFOLIO */
